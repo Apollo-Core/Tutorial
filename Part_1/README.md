@@ -12,7 +12,7 @@ TBD
 
 ### Start
 
-This folder is empty since there are no prerequisites for starting the tutorial.
+This folder is empty (and, in fact, missing from the repository :smile: ) since there are no prerequisites for starting the tutorial.
 
 ### Result
 

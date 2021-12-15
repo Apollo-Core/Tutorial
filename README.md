@@ -8,7 +8,7 @@ The repository is structured into four parts which contain the "solutions" for t
 
 Part # | Content | Link 
 -------|---------|------
-1 | Creating an AFCL workflow using Apollo's editor | TBD
+1 | Creating an AFCL workflow using Apollo's editor | [Link](https://github.com/Apollo-Core/Tutorial/tree/master/Part_1)
 2 | Implementing and deploying function code on AWS | TBD
 3 | Implementing and deploying function code as a Docker image | TBD
 4 | Modifying Apollo's (scheduling) behavior | TBD
