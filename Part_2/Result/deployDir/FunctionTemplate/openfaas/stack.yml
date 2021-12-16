@@ -1,0 +1,16 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080 # replace with OpenFaaS gateway address
+functions:
+  func-assemble:
+    lang: python3-http
+    handler: ../functions/func-assemble    
+    image: fedor89/func-assemble:latest    
+
+  func-split:
+    lang: python3-http
+    handler: ../functions/func-split    
+    image: fedor89/func-split:latest
+
+  

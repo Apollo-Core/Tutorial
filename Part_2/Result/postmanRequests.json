@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "aafd5999-8bd9-4b43-a855-69e68a814228",
+		"name": "ApolloTutorialTests",
+		"description": "Semi-automated test for the functions deployed as part of the Apollo tutorial.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "request_Shift",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"char\": \"A\",\n    \"offset\": -30\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_shift}}",
+					"host": [
+						"{{url_shift}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "request_Split",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"original\": \"apollo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_split}}",
+					"host": [
+						"{{url_split}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "request_Assemble",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"shiftedCharArr\": [\n        \"a\",\n        \"p\",\n        \"o\",\n        \"l\",\n        \"l\",\n        \"o\"\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url_assemble}}",
+					"host": [
+						"{{url_assemble}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url_shift",
+			"value": "https://3wytrbp5og.execute-api.us-east-1.amazonaws.com/Shift"
+		},
+		{
+			"key": "url_split",
+			"value": "https://5g4b7j3cp4.execute-api.us-east-1.amazonaws.com/Split"
+		},
+		{
+			"key": "url_assemble",
+			"value": "https://47y1z5zwjk.execute-api.us-east-1.amazonaws.com/Assemble"
+		}
+	]
+}
