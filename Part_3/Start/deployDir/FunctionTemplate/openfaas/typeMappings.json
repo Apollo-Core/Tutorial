@@ -1,0 +1,13 @@
+[
+	{
+		"functionType": "YourType",
+		"resources": [
+			{
+				"type": "Local",
+				"properties": {
+					"Image": "IMAGE_NAME"
+				}
+			}
+		]
+	}
+]

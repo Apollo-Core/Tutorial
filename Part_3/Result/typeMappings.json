@@ -1,0 +1,35 @@
+[
+	{
+		"functionType": "Assemble",
+		"resources": [
+			{
+				"type": "Local",
+				"properties": {
+					"Image": "fedor89/assemble"
+				}
+			}
+		]
+	},
+	{
+		"functionType": "Shift",
+		"resources": [
+			{
+				"type": "Local",
+				"properties": {
+					"Image": "fedor89/shift"
+				}
+			}
+		]
+	},
+	{
+		"functionType": "Split",
+		"resources": [
+			{
+				"type": "Local",
+				"properties": {
+					"Image": "fedor89/split"
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,60 @@
+---
+name: "caesar"
+dataIns:
+- name: "original"
+  type: "string"
+  source: "original"
+- name: "offset"
+  type: "number"
+  source: "offset"
+workflowBody:
+- function:
+    name: "Split"
+    type: "Split"
+    dataIns:
+    - name: "original"
+      type: "string"
+      source: "caesar/original"
+    dataOuts:
+    - name: "charArr"
+      type: "collection"
+- parallelFor:
+    name: "parShift"
+    dataIns:
+    - name: "charArr"
+      type: "collection"
+      source: "Split/charArr"
+    iterators: ["charArr"]
+    loopBody:
+    - function:
+        name: "Shift"
+        type: "Shift"
+        dataIns:
+        - name: "char"
+          type: "collection"
+          source: "parShift/charArr"
+        - name: "offset"
+          type: "number"
+          source: "caesar/offset"
+        dataOuts:
+        - name: "shiftedChar"
+          type: "string"
+    dataOuts:
+    - name: "shiftedCharArr"
+      type: "collection"
+      source: "Shift/shiftedChar"
+- function:
+    name: "Assemble"
+    type: "Assemble"
+    dataIns:
+    - name: "shiftedCharArr"
+      type: "collection"
+      source: "parShift/shiftedCharArr"
+    dataOuts:
+    - name: "encodedString"
+      type: "string"
+dataOuts:
+- name: "encodedString"
+  type: "string"
+  source: "Assemble/encodedString"
+
