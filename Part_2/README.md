@@ -1,12 +1,12 @@
 # Apollo Run Time System Tutorial -- Part 2: Implementing and Deploing Serverless Function Resources
 
-This repository provides a possible solution for the first part of the tutorial series on the Apollo Run Time System. (TBD: Add a brief description what the tutorial is about and link it to the Editor repo).
+This repository provides a possible solution for the second part of the tutorial series on the Apollo Run Time System. In this tutorial, you will use [Apollo's deployment process](https://github.com/Apollo-Functions/FunctionTemplate) to implement and deploy the functions of the caesar cipher application as serverless functions on AWS.
 
 ## Video
 
 The content and a walkthrough for this part of the tutorial is provided in the following video (click the image):
 
-TBD
+[![Watch the video](../images/thumbNailTutorialPart2.png)](https://youtu.be/P8J7DwNJt3Q)
 
 ## Content
 
@@ -19,4 +19,4 @@ This folder contains the files representing the necessary knowledge about the ap
 
 ### Result
 
-TBD, but it's gonna be the ``caesar_mappings_aws.json`` file -- don't forget to remove the links.
+The ``typeMappings.json`` file which contains the links to the serverless functions deployed on AWS (your links will differ from the ones provided in the repository).
