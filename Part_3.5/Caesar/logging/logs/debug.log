@@ -1,0 +1,26 @@
+2021-12-19 14:24:32,769 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:120] Using UNIX Socket for connecting to Docker Host. from Demo
+2021-12-19 14:24:34,572 INFO [pool-1-thread-1] a.u.d.e.c.v.VerticleManager [VerticleManager.java:62] Deployed 40 verticles. from Demo
+2021-12-19 14:26:03,629 INFO [pool-1-thread-1] a.u.d.e.c.c.Control [Control.java:63] Pausing enactment. from Demo
+2021-12-19 14:26:39,187 INFO [AWT-EventQueue-0] a.u.d.e.c.c.Control [Control.java:53] Resuming enactment. from Demo
+2021-12-19 14:26:44,783 INFO [vert.x-eventloop-thread-0] a.u.d.e.i.o.OutputDataPrinter [OutputDataPrinter.java:35] Workflow executed correctly. from Demo
+2021-12-19 14:26:44,784 INFO [vert.x-eventloop-thread-0] a.u.d.e.i.o.OutputDataPrinter [OutputDataPrinter.java:36] Enactment result: {"encodedString":"apollo"} from Demo
+2021-12-19 14:26:46,968 WARN [vertx-blocked-thread-checker] i.v.c.i.BlockedThreadChecker [?:?] Thread Thread[vert.x-eventloop-thread-0,5,main] has been blocked for 2181 ms, time limit is 2000 ms from Demo
+2021-12-19 14:27:29,083 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:120] Using UNIX Socket for connecting to Docker Host. from Demo
+2021-12-19 14:27:29,105 INFO [pool-1-thread-1] a.u.d.e.d.m.ContainerManagerDockerAPI [ContainerManagerDockerAPI.java:76] Docker network for function containers already exits! Make sure this is set up correctly! from Demo
+2021-12-19 14:27:29,149 INFO [pool-1-thread-1] a.u.d.e.c.v.VerticleManager [VerticleManager.java:62] Deployed 40 verticles. from Demo
+2021-12-19 14:27:42,393 INFO [pool-1-thread-1] a.u.d.e.c.c.Control [Control.java:63] Pausing enactment. from Demo
+2021-12-19 14:28:05,921 INFO [AWT-EventQueue-0] a.u.d.e.c.c.Control [Control.java:53] Resuming enactment. from Demo
+2021-12-19 14:28:08,987 WARN [vertx-blocked-thread-checker] i.v.c.i.BlockedThreadChecker [?:?] Thread Thread[vert.x-eventloop-thread-7,5,main] has been blocked for 2698 ms, time limit is 2000 ms from Demo
+2021-12-19 14:28:08,988 WARN [vertx-blocked-thread-checker] i.v.c.i.BlockedThreadChecker [?:?] Thread Thread[vert.x-eventloop-thread-6,5,main] has been blocked for 2711 ms, time limit is 2000 ms from Demo
+2021-12-19 14:28:09,250 INFO [vert.x-eventloop-thread-7] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://3wytrbp5og.execute-api.us-east-1.amazonaws.com/Shift triggerred. from Demo
+2021-12-19 14:28:09,260 INFO [vert.x-eventloop-thread-6] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://3wytrbp5og.execute-api.us-east-1.amazonaws.com/Shift triggerred. from Demo
+2021-12-19 14:28:09,338 INFO [vert.x-eventloop-thread-4] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://3wytrbp5og.execute-api.us-east-1.amazonaws.com/Shift triggerred. from Demo
+2021-12-19 14:28:09,364 INFO [vert.x-eventloop-thread-2] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://3wytrbp5og.execute-api.us-east-1.amazonaws.com/Shift triggerred. from Demo
+2021-12-19 14:28:09,811 INFO [vert.x-eventloop-thread-5] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:61] Serverless function https://3wytrbp5og.execute-api.us-east-1.amazonaws.com/Shift triggerred. from Demo
+2021-12-19 14:28:11,542 INFO [vert.x-eventloop-thread-2] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://3wytrbp5og.execute-api.us-east-1.amazonaws.com/Shift finished from Demo
+2021-12-19 14:28:11,548 INFO [vert.x-eventloop-thread-6] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://3wytrbp5og.execute-api.us-east-1.amazonaws.com/Shift finished from Demo
+2021-12-19 14:28:11,548 INFO [vert.x-eventloop-thread-7] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://3wytrbp5og.execute-api.us-east-1.amazonaws.com/Shift finished from Demo
+2021-12-19 14:28:11,551 INFO [vert.x-eventloop-thread-4] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://3wytrbp5og.execute-api.us-east-1.amazonaws.com/Shift finished from Demo
+2021-12-19 14:28:11,564 INFO [vert.x-eventloop-thread-5] a.u.d.e.e.s.ServerlessFunction [ServerlessFunction.java:63] Serverless function https://3wytrbp5og.execute-api.us-east-1.amazonaws.com/Shift finished from Demo
+2021-12-19 14:28:11,899 INFO [vert.x-eventloop-thread-0] a.u.d.e.i.o.OutputDataPrinter [OutputDataPrinter.java:35] Workflow executed correctly. from Demo
+2021-12-19 14:28:11,901 INFO [vert.x-eventloop-thread-0] a.u.d.e.i.o.OutputDataPrinter [OutputDataPrinter.java:36] Enactment result: {"encodedString":"Mjqqt Btwqi!"} from Demo

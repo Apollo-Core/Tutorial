@@ -180,11 +180,11 @@ resource "aws_lambda_permission" "apigw" {
 
 
 
-output "url_Shift" {
+output "url_Split" {
   value = aws_api_gateway_deployment.example0.invoke_url
 }
 
-output "url_Split" {
+output "url_Shift" {
   value = aws_api_gateway_deployment.example1.invoke_url
 }
 

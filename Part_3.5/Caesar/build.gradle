@@ -1,0 +1,53 @@
+buildscript {
+  repositories {
+    jcenter()
+  }
+}
+
+// to run sonarqube in local host
+plugins {
+  id "org.sonarqube" version "2.7"
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+apply plugin: 'jacoco'
+// for compliance with higher Java versions
+jacoco {
+  toolVersion = "0.8.5"
+}
+
+mainClassName = 'at.uibk.dps.ee.guice.starter.EeConfiguration'
+
+group 'importance'
+version '1.0-SNAPSHOT'
+
+
+repositories {
+  mavenCentral()
+  maven {
+    name "jitpack"
+    url 'https://jitpack.io' }
+}
+
+dependencies {
+
+  implementation 'com.github.Apollo-Core:EE-Core:master-SNAPSHOT'
+  implementation 'com.github.Apollo-Core:EE-Guice:main-SNAPSHOT'
+  implementation 'com.github.Apollo-Core:EE-Model:main-SNAPSHOT'
+  implementation 'com.github.Apollo-Core:EE-IO:main-SNAPSHOT'
+  implementation 'com.github.Apollo-Core:EE-Enactables:master-SNAPSHOT'
+  implementation 'com.github.Apollo-Core:EE-Control:master-SNAPSHOT'
+  implementation 'com.github.Apollo-Core:SC-Core:main-SNAPSHOT'
+  implementation 'com.github.Apollo-Core:EE-Visualization:master-SNAPSHOT'
+  implementation 'com.github.Apollo-Core:EE-Docker:master-SNAPSHOT'
+
+  // dependency to Opt4J
+  implementation 'com.github.FedorSmirnov89:opt4j:-SNAPSHOT'
+  // dependency to opendse
+  implementation 'com.github.FedorSmirnov89:opendse:-SNAPSHOT'
+  // test dependencies
+  testCompile group: 'junit',       name: 'junit',                  version: '4.+'
+  testCompile group: 'org.mockito',     name: 'mockito-core',     version: '3.4.4'
+}

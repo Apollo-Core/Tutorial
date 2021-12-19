@@ -1,0 +1,33 @@
+---
+name: "single Atomic"
+dataIns:
+  - name: "a"
+    type: "number"
+    source: "a"
+  - name: "wait"
+    type: "number"
+    source: "wait"
+workflowBody:
+  - function:
+      name: "addition_Demo"
+      type: "Addition"
+      dataIns:
+        - name: "firstSummand"
+          type: "number"
+          source: "single Atomic/a"
+        - name: "secondSummand"
+          type: "number"
+          source: "10"
+        - name: "waitTimeIn"
+          type: "number"
+          source: "single Atomic/wait"
+      dataOuts: 
+        - name: "sum"
+          type: "number"
+      properties:
+        - name: "resource"
+          value: "my_res_link" 
+dataOuts:
+  - name: "result"
+    type: "number"
+    source: "addition_Demo/sum"

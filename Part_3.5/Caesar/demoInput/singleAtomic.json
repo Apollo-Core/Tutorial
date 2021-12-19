@@ -1,0 +1,12 @@
+[
+	{
+		"functionType": "Addition",
+		"resources": [
+			{
+				"type": "Demo",
+				"properties": {
+				}
+			}
+		]
+	}
+]
